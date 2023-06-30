@@ -79,3 +79,5 @@ exports.images = images;
 exports.imgwebp = imgwebp;
 exports.imgAvif = imgAvif;
 exports.dev = parallel(images, imgAvif, imgwebp, javascript, dev);
+exports.build = parallel(images, imgAvif, imgwebp, javascript, dev);
+exports.default = parallel(images, imgAvif, imgwebp, javascript, dev);
